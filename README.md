@@ -70,3 +70,7 @@ ft_printf/
 - `ft_printf.c`: Main implementation of the `ft_printf` function.
 - `ft_printf.h`: Header file with function prototypes.
 - Other `.c`/`.h` files: Helpers and bonus feature implementations.
+
+## License
+
+This project is part of the 42 school curriculum and is intended for educational purposes.
