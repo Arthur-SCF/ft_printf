@@ -41,18 +41,21 @@ This project was built as part of the **42 school curriculum**. It is a required
 | `%X`      | Uppercase hexadecimal  |
 | `%%`      | Percent sign           |
 
-
-
 ## Bonus Features
 
-Depending on your project configuration, bonus features might include:
+The bonus part of the 42 ft_printf project includes support for the following flags and features, which can be used in any combination:
 
-- Support for additional format flags: `-`, `0`, `#`, ` `, and `+`
-- Handling of field width and precision
-- Support for printing to arbitrary file descriptors (e.g., `ft_dprintf`)
-- Extended type handling or custom specifiers
+| Flag        | Description                                                                |
+|-------------|----------------------------------------------------------------------------|
+| `-`         | Left-justify within the given field width                                  |
+| `0`         | Pad with zeros instead of spaces                                           |
+| `.`         | Precision specification (e.g., `.5`)                                       |
+| (width)     | Field minimum width (e.g., `10` for a width of 10)                         |
+| `#`         | Use alternative form (`0x`, `0X`, or `0` prefix for hex/oct, as applicable)|
+| ` ` (space) | Prefix a space for positive numbers in signed conversions                  |
+| `+`         | Always prefix a sign (`+` or `-`) for signed conversions                   |
 
-Check the source code or project instructions for details on which bonuses are implemented.
+> **Note:** The bonus part requires you to manage any combination of the flags `'-'`, `'0'`, `'.'`, and the field minimum width under all conversions, and to fully support the `'#'`, `' '`, and `'+'` flags.
 
 ## Project Structure
 
